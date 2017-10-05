@@ -1,13 +1,13 @@
 """Linear Regression, 1/30/17, Sajad Azami"""
 
-import part_one.data_preparation as data_preparation
-import part_one.linear_regression as linear_regression
+import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 import seaborn as sns
 from matplotlib import gridspec
-import matplotlib.pyplot as plt
 from sklearn.linear_model import Lasso
-import pandas as pd
+
+import addtional_examples.part_one.data_preparation as data_preparation
 
 __author__ = 'sajjadaazami@gmail.com (Sajad Azami)'
 sns.set_style("darkgrid")

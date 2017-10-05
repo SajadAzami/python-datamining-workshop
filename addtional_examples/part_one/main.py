@@ -1,15 +1,17 @@
 """Linear Regression, 1/21/17, Sajad Azami"""
 
-import part_one.data_preparation as data_preparation
-import part_one.linear_regression as linear_regression
+import random
+
+import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 from matplotlib import gridspec
-import matplotlib.pyplot as plt
-import random
+
+import addtional_examples.part_one.linear_regression as linear_regression
+from addtional_examples.part_one import data_preparation as data_preparation
 
 __author__ = 'sajjadaazami@gmail.com (Sajad Azami)'
-sns.set_style("darkgrid")
+# sns.set_style("darkgrid")
 
 data_set_1, label_1 = data_preparation.read_data('../data_set/Dataset1.csv', 8)
 print('Data set Loaded!')
